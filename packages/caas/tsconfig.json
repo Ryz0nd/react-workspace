@@ -16,7 +16,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "paths": {
       "styles/*": ["styles/*"]
     }

@@ -3571,6 +3571,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["html-webpack-plugin", "virtual:0da6540082c516baf3bc7fdc232c17dca281579cf2aa0225ee70dbec822ac8a7fa98e1de622b255837fa4f6db3246c7bd49167ece93a35f69ca3cc631137fd6f#npm:5.3.2"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:0da6540082c516baf3bc7fdc232c17dca281579cf2aa0225ee70dbec822ac8a7fa98e1de622b255837fa4f6db3246c7bd49167ece93a35f69ca3cc631137fd6f#npm:17.0.2"],
+            ["styles", "link:./src/styles::locator=caas%40workspace%3Apackages%2Fcaas"],
             ["ts-loader", "virtual:0da6540082c516baf3bc7fdc232c17dca281579cf2aa0225ee70dbec822ac8a7fa98e1de622b255837fa4f6db3246c7bd49167ece93a35f69ca3cc631137fd6f#npm:9.2.6"],
             ["typescript", "patch:typescript@npm%3A4.4.3#~builtin<compat/typescript>::version=4.4.3&hash=32657b"],
             ["webpack", "virtual:0da6540082c516baf3bc7fdc232c17dca281579cf2aa0225ee70dbec822ac8a7fa98e1de622b255837fa4f6db3246c7bd49167ece93a35f69ca3cc631137fd6f#npm:5.58.1"],
@@ -7416,6 +7417,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["strip-final-newline", "npm:2.0.0"]
           ],
           "linkType": "HARD",
+        }]
+      ]],
+      ["styles", [
+        ["link:./src/styles::locator=caas%40workspace%3Apackages%2Fcaas", {
+          "packageLocation": "./packages/caas/src/styles/",
+          "packageDependencies": [
+            ["styles", "link:./src/styles::locator=caas%40workspace%3Apackages%2Fcaas"]
+          ],
+          "linkType": "SOFT",
+          "discardFromLookup": true
         }]
       ]],
       ["stylis", [

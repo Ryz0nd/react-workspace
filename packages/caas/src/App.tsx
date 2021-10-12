@@ -1,7 +1,6 @@
-import React from "react";
 import { css, Global, ThemeProvider } from "@emotion/react";
-import { theme } from "./styles/theme";
-import { normalize } from "./styles/normalize";
+import { theme } from "styles/theme";
+import { normalize } from "styles/normalize";
 
 const App = () => {
   return (
