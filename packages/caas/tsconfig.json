@@ -16,7 +16,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
-    "jsx": "react"
+    "jsx": "react",
+    "paths": {
+      "styles/*": ["styles/*"]
+    }
     // "jsxImportSource": "@emotion/react"
     /* Projects */
     // "incremental": true,                              /* Enable incremental compilation */
@@ -113,5 +116,6 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     // "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
