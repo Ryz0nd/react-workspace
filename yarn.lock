@@ -695,17 +695,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-syntax-typescript@npm:^7.14.5":
-  version: 7.14.5
-  resolution: "@babel/plugin-syntax-typescript@npm:7.14.5"
-  dependencies:
-    "@babel/helper-plugin-utils": ^7.14.5
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 5447d13b31aeeeaa5c2b945e60a598642dedca480f11d3232b0927aeb6a6bb8201a0025f509bc23851da4bf126f69b0522790edbd58f4560f0a4984cabd0d126
-  languageName: node
-  linkType: hard
-
 "@babel/plugin-transform-arrow-functions@npm:^7.14.5":
   version: 7.14.5
   resolution: "@babel/plugin-transform-arrow-functions@npm:7.14.5"
@@ -1108,19 +1097,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-typescript@npm:^7.15.0":
-  version: 7.15.8
-  resolution: "@babel/plugin-transform-typescript@npm:7.15.8"
-  dependencies:
-    "@babel/helper-create-class-features-plugin": ^7.15.4
-    "@babel/helper-plugin-utils": ^7.14.5
-    "@babel/plugin-syntax-typescript": ^7.14.5
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 3f5bbb0d38e9cd55212ee867c32e6e85cfd5443dfffe40de0229eeccd2bf75ebe9d8221efb0bdc9891bc3175fcca28c24cac0053e5272c88c71fc034d5e0eb88
-  languageName: node
-  linkType: hard
-
 "@babel/plugin-transform-unicode-escapes@npm:^7.14.5":
   version: 7.14.5
   resolution: "@babel/plugin-transform-unicode-escapes@npm:7.14.5"
@@ -1255,19 +1231,6 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0-0
   checksum: 413c507f853b95c71ecb64f29ea7b0786464a237c54977b03a4410dd837b03bfa55df81d0e337f9792d9abc61f4bf3d616f857d00a36ff4ede79407c143ac865
-  languageName: node
-  linkType: hard
-
-"@babel/preset-typescript@npm:^7.15.0":
-  version: 7.15.0
-  resolution: "@babel/preset-typescript@npm:7.15.0"
-  dependencies:
-    "@babel/helper-plugin-utils": ^7.14.5
-    "@babel/helper-validator-option": ^7.14.5
-    "@babel/plugin-transform-typescript": ^7.15.0
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: 2c480bb0ef76418357d92ccfae67df544a069ca8f59785e8bd0d1d3111bfc671f9f04672583506f1ee62afc3872bf21ed85d6d0c97ba1bc09a6efd1f7c20a10f
   languageName: node
   linkType: hard
 
@@ -1840,12 +1803,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"Caas-monorepo@workspace:.":
+"Monorepo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "Caas-monorepo@workspace:."
+  resolution: "Monorepo@workspace:."
   dependencies:
-    "@babel/plugin-proposal-class-properties": ^7.14.5
-    "@babel/preset-typescript": ^7.15.0
     typescript: ^4.4.3
   languageName: unknown
   linkType: soft
@@ -2248,9 +2209,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caas@workspace:packages/caas":
+"caas@workspace:packages/core":
   version: 0.0.0-use.local
-  resolution: "caas@workspace:packages/caas"
+  resolution: "caas@workspace:packages/core"
   dependencies:
     "@babel/core": ^7.15.8
     "@babel/preset-env": ^7.15.8
@@ -5630,9 +5591,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"styles@link:./src/styles::locator=caas%40workspace%3Apackages%2Fcaas":
+"styles@link:./src/styles::locator=caas%40workspace%3Apackages%2Fcore":
   version: 0.0.0-use.local
-  resolution: "styles@link:./src/styles::locator=caas%40workspace%3Apackages%2Fcaas"
+  resolution: "styles@link:./src/styles::locator=caas%40workspace%3Apackages%2Fcore"
   languageName: node
   linkType: soft
 

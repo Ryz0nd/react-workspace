@@ -87,6 +87,10 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+# build output
+build/
+
+# Zero Install (https://next.yarnpkg.com/getting-started/qa#which-files-should-be-gitignored)
 .yarn/*
 !.yarn/cache
 !.yarn/patches
