@@ -1,1 +1,1 @@
-Caas-frontend-v2
+React.js, Typescript, Yarn 3, Yarn workspaces Template
