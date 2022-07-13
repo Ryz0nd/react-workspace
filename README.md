@@ -1,1 +1,1 @@
-React.js, Typescript, Yarn 3, Yarn workspaces Template
+React.js, Typescript, Yarn 3, Yarn workspaces Template. 
